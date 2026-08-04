@@ -1,0 +1,19 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: gray;
+}
+
+h2{
+    color: green;
+}
+
+.hegemony {
+    color: orangered
+}
+
+#test{
+    color: blue;
+}
