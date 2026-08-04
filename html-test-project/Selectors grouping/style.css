@@ -1,0 +1,26 @@
+.div-1 {
+    background-color: red;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.div-1 p {
+    font-size: 22px;
+    color: cornsilk;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.div-1 .div-1-paragrhaph {
+    color: seagreen;
+}
+
+.test-1.test-2 {
+    color: aqua;
+}
+
+.p-1, .p-2, .p-3{
+    color: blue;
+}
