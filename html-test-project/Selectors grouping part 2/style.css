@@ -1,0 +1,27 @@
+.parent-1 > p{
+    color: red;
+}
+
+.parent-2 + p{
+    color: blue;
+}
+
+.parent-3 ~ p{
+    color: green;
+}
+
+.parent-4 + div{
+    color: brown;
+}
+
+p[id]{ 
+    color: blueviolet;
+}
+
+p[id="test-2"]{ 
+    color: steelblue;
+}
+
+p[class="test-3"]{
+    color: chocolate;
+}
