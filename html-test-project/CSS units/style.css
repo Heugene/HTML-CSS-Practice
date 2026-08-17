@@ -1,0 +1,80 @@
+.px_demo {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.cm_demo {
+    height: 3cm;
+    width: 3cm;
+    background-color: azure;
+}
+
+.mm_demo {
+    height: 45mm;
+    width: 45mm;
+    background-color: rosybrown;
+}
+
+.in_demo {
+    height: 2.3in;
+    width: 2.3in;
+    background-color: wheat;
+}
+
+.pt_demo {
+    height: 128pt;
+    width: 128pt;
+    background-color: darkkhaki;
+}
+
+.pc_demo {
+    height: 8pc;
+    width: 8pc;
+    background-color: silver;
+}
+
+.percent_demo {
+    width: 10%;
+    background-color: cadetblue;
+}
+
+.em_demo {
+    width: 18em;
+    background-color: darkolivegreen;
+}
+
+.ex_demo {
+    width: 15ex;
+    background-color: royalblue;
+}
+
+.ch_demo {
+    width: 12ch;
+    background-color: indianred;
+}
+
+.rem_demo {
+    width: 9rem;
+    background-color: honeydew;
+}
+
+.vw_demo {
+    width: 85vw;
+    background-color: slateblue;
+}
+
+.vh_demo {
+    width: 65vh;
+    background-color: burlywood;
+}
+
+.vmin_demo {
+    width: 50vmin;
+    background-color: darkorange;
+}
+
+.vmax_demo {
+    width: 50vmax;
+    background-color: teal;
+}
