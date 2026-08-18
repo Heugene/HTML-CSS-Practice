@@ -36,6 +36,13 @@ body {
     font-weight: 600;
 }
 
+/* nth-child(n) or first-child */
+.nav-options li:last-child {
+    color: darkorange;
+    font-size: 16px;
+    font-weight: 800px;
+}
+
 .nav-options a {
     text-decoration: none;
     color: inherit;
