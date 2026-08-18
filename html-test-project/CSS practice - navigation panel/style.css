@@ -36,11 +36,29 @@ body {
     font-weight: 600;
 }
 
-/* nth-child(n) or first-child */
-.nav-options li:last-child {
-    color: darkorange;
+/* or nth-child(n)*/
+.nav-options li:last-of-type a {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: darkorange;
+    color: black;
     font-size: 16px;
-    font-weight: 800px;
+    font-weight: 800;
+    border-radius: 3px;
+    transition: all .25s ease;
+}
+
+.nav-options li:last-of-type a:hover {
+    background-color: rgb(229, 126, 0);
+    color: white;
+    font-weight: 900;
+}
+
+.nav-options li:last-of-type a .heart {
+    width: 1em;
+    height: 1em;
 }
 
 .nav-options a {
