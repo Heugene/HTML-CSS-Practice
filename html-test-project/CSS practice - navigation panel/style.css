@@ -1,5 +1,9 @@
 body {
     margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .header {
@@ -27,7 +31,9 @@ body {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-    color: white;   
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .nav-options a {
