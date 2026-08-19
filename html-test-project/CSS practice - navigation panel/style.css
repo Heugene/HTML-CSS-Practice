@@ -38,16 +38,16 @@ body {
 
 /* or nth-child(n)*/
 .nav-options li:last-of-type a {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
     background-color: darkorange;
     color: black;
     font-size: 16px;
     font-weight: 800;
     border-radius: 3px;
     transition: all .25s ease;
+    display: flex;
+    align-items: center;
+    line-height: 16px;
+    padding: 6px;
 }
 
 .nav-options li:last-of-type a:hover {

@@ -1,0 +1,25 @@
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.child {
+    width: 200px;
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
+
+.child:first-of-type {
+    background-color: red;
+}
+
+.child:nth-of-type(2) {
+    background-color: blue;
+}
+
+.child:last-of-type {
+    background-color: green;
+}
