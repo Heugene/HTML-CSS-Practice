@@ -36,6 +36,22 @@ body {
     font-weight: 600;
 }
 
+.nav-list-link { 
+    position: relative;
+}
+
+.nav-list-link::after {
+    content: "";
+    background: darkorange;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    /*transform: scaleX(0);*/
+    transition: all .25s ease;
+}
+
 /* or nth-child(n)*/
 .nav-options li:last-of-type a {
     background-color: darkorange;
